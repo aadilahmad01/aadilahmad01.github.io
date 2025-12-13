@@ -1273,3 +1273,20 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* ===== Hero Text Color Change ===== */
+
+/* Name */
+#hero h1 {
+  color: #00f5ff !important;   /* neon blue */
+}
+
+/* Subtitle */
+#hero p,
+#hero .typed {
+  color: #e5e7eb !important;   /* soft white */
+}
+
+/* Optional: thoda glow (remove if nahi chahiye) */
+#hero h1 {
+  text-shadow: 0 0 12px rgba(0, 245, 255, 0.4);
+}
