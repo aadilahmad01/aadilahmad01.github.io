@@ -1290,3 +1290,6 @@ section,
 #hero h1 {
   text-shadow: 0 0 12px rgba(0, 245, 255, 0.4);
 }
+#hero h1 {
+  color: #145A32
+}
