@@ -1338,4 +1338,34 @@ a, .btn {
 /* Remove template shadows */
 * {
   box-shadow: none !important;
+}/* ===== Text Visibility Fix ===== */
+
+/* Card text */
+.resume-item,
+.resume-item * ,
+.service-box,
+.service-box * ,
+.portfolio-item,
+.portfolio-item * {
+  color: #e5e7eb !important;
+  opacity: 1 !important;
 }
+
+/* Paragraphs */
+p {
+  color: #d1d5db !important;
+}
+
+/* Small text / dates */
+.resume-item span,
+.resume-item small {
+  color: #9ca3af !important;
+}
+
+/* Headings inside cards */
+.resume-item h3,
+.resume-item h4,
+.resume-item h5 {
+  color: #f9fafb !important;
+}
+
