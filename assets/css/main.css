@@ -1368,4 +1368,31 @@ p {
 .resume-item h5 {
   color: #f9fafb !important;
 }
+/* ===== ADD ONLY: Text Visibility Fix ===== */
+
+.resume-item,
+.resume-item * ,
+.service-box,
+.service-box * ,
+.portfolio-item,
+.portfolio-item * {
+  color: #f1f5f9 !important;
+  opacity: 1 !important;
+}
+
+.resume-item p,
+.resume-item li {
+  color: #e5e7eb !important;
+}
+
+.resume-item span,
+.resume-item small {
+  color: #cbd5f5 !important;
+}
+
+.resume-item h3,
+.resume-item h4,
+.resume-item h5 {
+  color: #ffffff !important;
+}
 
