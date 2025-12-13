@@ -1394,5 +1394,24 @@ p {
 .resume-item h4,
 .resume-item h5 {
   color: #ffffff !important;
+}/* ===== FIX: Skills Section Only ===== */
+
+.skills,
+.skills * {
+  color: #020617 !important;   /* dark text */
 }
+
+.skills .progress {
+  background: #e5e7eb !important;
+}
+
+.skills .progress-bar {
+  background: linear-gradient(90deg, #00f5ff, #3b82f6) !important;
+}
+
+.skills .skill span {
+  color: #020617 !important;
+  font-weight: 600;
+}
+
 
